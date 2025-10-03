@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Images</title>
+  </head>
+  <body>
+    <h1>How to add images</h1>
+    <center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNg6_usnFIYYJydANC44_bIJy2QKXHr5stgw&s">
+      <audio controls autoplay="0" loop>
+<source src="name.mp3" type="audio/mpeg">
+</audio>
+      <video controls autoplay loop width="400" height="300">
+<source src="dvd.mp4" type="video/mp4" >
+browser does not support the video tag
+</video>
+    </center>
+  </body>
+</html>
