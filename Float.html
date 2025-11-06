@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model Example</title>
+    <style type="text/css">
+        img#flowerright {
+            float: right;
+            margin: 0 0 10px 10px;
+        }
+
+        img#flowerleft {
+            float: left;
+            margin: 0 10px 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Float Example</h1>
+    <hr>
+
+    <p>
+        <img id="flowerright" src="flower.jpg" alt="Flower Right" width="150" height="150">
+        <img id="flowerleft" src="flower.jpg" alt="Flower Left" width="150" height="150">
+        Float means that the element is taken out of the normal flow of the document and positioned to the left or right
+        of its container, allowing other content to wrap around it.
+    </p>
+    <p>
+        Dummy text here to show how the float property works.
+    </p>
+</body>
+
+</html>
